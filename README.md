@@ -1,2 +1,2 @@
 # AI
-Artificial Relative Stuff
+Artificial Intelligence Relative Stuff
