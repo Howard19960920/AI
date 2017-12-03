@@ -146,7 +146,7 @@ int main(int argc, char **argv)
 {
   printf("plz input number of queen, population size, crossover rate, generation, and runs in order\n");
   scanf("%d%d%f%d%d", &nQueen, &pplSize, &xOver, &tGen, &runs);
-  // 每一市代需透過crossover產生的個體數目
+  // 每一世代需透過crossover產生的個體數目
   nkid = floor(xOver * nQueen);
   assert(nQueen > 0 and 0 < pplSize and 0 < xOver and 0 < tGen and 0 < runs and nQueen <= pplSize);
   for(int r = 0; r < runs; r++)
