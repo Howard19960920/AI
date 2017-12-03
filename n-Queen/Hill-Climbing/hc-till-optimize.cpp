@@ -72,7 +72,6 @@ void hill_climbing()
       for(int j = i - 1; j >= 0 && qlist[i] - j + i < nQueen; j--)
         board[qlist[i] - j + i][j]++;
     }
-
     // 建立下一步棋的候選表
     candidate.clear();
     candidate.push_back({curAttk, -1, -1});
